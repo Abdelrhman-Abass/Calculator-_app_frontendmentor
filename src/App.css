@@ -288,3 +288,9 @@ button:hover{
 .toggle-full{
   transform: translateX(calc(90px - 30px));
 }
+
+@media (max-width:518px) {
+  .calc_buttons,.calc_result,.calc_theme{
+    width: 300px;
+  }
+}
